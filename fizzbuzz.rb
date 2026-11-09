@@ -2,7 +2,8 @@ class Fizzbuzz
   def execute(number);
     if number % 3 == 0
       return "fizz"
-    elif number %
+    elsif number % 5 == 0
+      return "buzz"
     else
       return number
     end
